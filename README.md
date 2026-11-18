@@ -102,7 +102,7 @@ The Networkwalks online tools successfully recovered the passwords for all three
 ![pdf1 hash extraction with networkwalks tool](screenshots/pd1.png)
 ![pdf1 cracked](screenshots/pdf1.crack.png)
 ![pdf1 unlocked](screenshots/pd1.unlocked.png)
-[pdf2 hash extraction with networkwalks tool](screenshots/pd2.png)
+![pdf2 hash extraction with networkwalks tool](screenshots/pd2.png)
 ![pdf2 cracked](screenshots/pdf2.cracked.png)
 ![pdf2 unlocked](screenshots/pd2.unlocked.png)
 ![pdf3 hash extraction with networkwalks tool](screenshots/pd3.png)
