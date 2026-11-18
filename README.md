@@ -62,3 +62,8 @@ Crack the password of the supplied PDF file (My Locked PDF1.pdf) using John the 
 
 ### Observation
 John the Ripper recovered the PDF password within a few minutes using the default wordlist attack mode. This demonstrates that a weak or dictionary-based password can be recovered quickly by an attacker with access to the file's hash, reinforcing the need for long, non-dictionary passwords on sensitive documents.
+
+#### Evidence:
+
+![johnny installation page](screenshots/johnny-pd1.png)
+![pdf1 password crack using johnny ](screenshots/jonny.png)
