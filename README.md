@@ -69,3 +69,34 @@ John the Ripper recovered the PDF password within a few minutes using the defaul
 ![johnny installation page](screenshots/johny.png)
 ![pdf1 password crack using johnny ](screenshots/johnny-pd1.png)
 ![pdf unlocked](screenshots/pd1.unlocked.png)
+
+<div align="center">
+
+## 🔍 Part 2 — Password Cracking with Networkwalks Tools
+
+</div>
+
+### Task
+Crack the passwords of the three protected PDF files (including My Locked PDF1.pdf) using the Networkwalks Hash Calculator and Networkwalks Password Cracker — both free, browser-based tools requiring no installation.
+
+### Steps
+- Downloaded the encrypted PDF files from the lab page on networkwalks.com
+- Opened the Networkwalks Hash Calculator (networkwalks.com/hash-calculator)
+- Uploaded each locked PDF file, and the tool extracted the corresponding hash for each, prefixed `$pdf$...`
+- Copied each complete hash value, confirming the full string was captured starting from `$pdf$`
+- Opened the Networkwalks Password Cracker (networkwalks.com/password-cracker)
+- Pasted the first hash and started the attack using the built-in dictionary of about 100 common words
+- The attack completed, but the password was not recovered — the initial wordlist wasn't large enough
+- Went back through the internship resources and found a larger wordlist associated with JTR default/common passwords
+- Uploaded the larger wordlist and reran the attack
+- This time, the attack succeeded and the cracked password was displayed on screen
+- Repeated the same process — extracting the hash and running the attack with the larger wordlist — for the remaining two PDFs
+- All three passwords were successfully recovered
+- Opened each PDF and entered its corresponding cracked password, unlocking all three files successfully
+
+### Observation
+The Networkwalks online tools successfully recovered the passwords for all three PDF files, without requiring any software installation. The first attempt on PDF 1 with the smaller built-in dictionary failed, showing that having a cracking tool alone isn't enough — wordlist size and quality play a major role in whether an attack succeeds. Once a larger wordlist was used, all three passwords were recovered without further issues. This also highlights that password cracking is accessible even without specialist local tooling, since browser-based cracking services lower the barrier further, meaning weak document passwords can be broken by almost anyone with internet access.
+
+#### Evidence:
+
+
