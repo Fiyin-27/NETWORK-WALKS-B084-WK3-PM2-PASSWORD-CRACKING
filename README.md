@@ -65,5 +65,6 @@ John the Ripper recovered the PDF password within a few minutes using the defaul
 
 #### Evidence:
 
-![johnny installation page](screenshots/johnny-pd1.png)
-![pdf1 password crack using johnny ](screenshots/jonny.png)
+![johnny installation page](screenshots/johny.png)
+![pdf1 password crack using johnny ](screenshots/johnny-pd1.png)
+![pdf unlocked](screenshots/pd1.unlocked.png)
