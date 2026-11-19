@@ -109,7 +109,7 @@ The Networkwalks online tools successfully recovered the passwords for all three
 ![pdf3 cracked](screenshots/pdf3.crack.png)
 ![pdf3 unlocked](screenshots/pd3.unlocked.png)
 
-## What I Learned
+## 💡 What I Learned
 
 ### 1. A hash is not the same as a password
 Protected PDFs don't store the password itself — they store a hashed version of it. Cracking works by testing candidate passwords, hashing each one, and checking if it matches the stored hash. If it does, that's the password; if not, the tool moves to the next guess. This also showed me why hashing is a one-way process — there's no shortcut to reverse a hash back into a password.
@@ -120,11 +120,11 @@ My first attempt used a small built-in dictionary of about 100 common passwords,
 ### 3. Real-world cybersecurity demands flexibility
 The task looked simple on paper, but my first cracking attempt on the Networkwalks side failed outright due to a weak wordlist, meaning I had to go back and find a better one before tr
 
-## Conclusion
+## 📝 Conclusion 
 
 This week's practical gave me my first hands-on experience with password cracking, working through hash extraction and wordlist-based attacks to recover all three PDF passwords. Using both John the Ripper/Johnny and the Networkwalks tools showed that the right wordlist matters more than the tool itself. It also reminded me that troubleshooting and adapting are just as much a part of cybersecurity as the technical steps, and gave me a clearer picture of why weak passwords remain such a common risk.
 
-## Disclaimer
+## ⚠️ Disclaimer
 
 This practical was carried out strictly within the scope of the Networkwalks Cybersecurity Internship, using only the files and tools provided for this authorized training exercise. All password-cracking activity documented here was performed on files supplied specifically for this lab, and was not carried out against any unauthorized systems or data.
 
